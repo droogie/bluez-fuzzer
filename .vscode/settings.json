@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "compare": "c",
+        "socket.h": "c",
+        "sdp_lib.h": "c",
+        "sco.h": "c"
+    }
+}
