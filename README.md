@@ -8,6 +8,16 @@ The main changes at the moment are `./attrib/gatttool` having a `fuzz` command i
 
 `./build.sh`, if it doesn't work check what dependencies are necessary for `aur/bluez-utils-compat`
 
+Ubuntu users have reported the following packages being required:
+```
+sudo apt install libdbus-1-dev
+sudo apt install libudev-dev
+sudo apt install libjson-c-dev
+sudo apt install libical-dev
+sudo apt install libreadline-dev
+sudo apt -y install python3-docutils
+```
+
 ## Examples
 
 gatt fuzzing:
